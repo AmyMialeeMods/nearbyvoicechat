@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+
+[[mods]]
+modId = "nearbyvoicechat"
+version = "${version}"
+displayName = "Nearby Voice Chat"
+description = "Hear group members near you!"
+
+[properties]
+"connector:placeholder" = true
+
+[[dependencies.nearbyvoicechat]]
+modId = "connector"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nearbyvoicechat]]
+modId = "voicechat"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"

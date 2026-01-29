@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "nearbyvoicechat",
+  "version": "${version}",
+  "name": "nearbyvoicechat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nearbyvoicechat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "voicechat": [
+      "dev.amymialee.nearbyvoicechat.NearbyVoiceChat"
+    ]
+  },
+  "mixins": [
+    "nearbyvoicechat.mixins.json"
+  ],
+  "depends": {
+    "voicechat": "*"
+  }
+}
