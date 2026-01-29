@@ -2,12 +2,19 @@
   "schemaVersion": 1,
   "id": "nearbyvoicechat",
   "version": "${version}",
-  "name": "nearbyvoicechat",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "name": "Nearby Voice Chat",
+  "description": "Hear group members near you!",
+  "authors": [
+    "AmyMialee"
+  ],
+  "contact": {
+    "homepage": "https://amymialee.dev/",
+    "sources": "https://github.com/AmyMialeeMods/nearbyvoicechat",
+    "issues": "https://github.com/AmyMialeeMods/nearbyvoicechat/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/nearbyvoicechat/icon.png",
+
   "environment": "*",
   "entrypoints": {
     "voicechat": [
@@ -17,7 +24,18 @@
   "mixins": [
     "nearbyvoicechat.mixins.json"
   ],
+
   "depends": {
     "voicechat": "*"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://amymialee.dev",
+        "modmenu.patreon": "https://www.patreon.com/cw/AmyMialee",
+        "modmenu.discord": "https://discord.gg/aEghXGbm3J"
+      }
+    }
   }
 }
